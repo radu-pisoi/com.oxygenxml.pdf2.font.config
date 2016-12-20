@@ -264,7 +264,9 @@
         </options>
     </meta>
     <projectTree name="pdf-font-config.xpr">
+        <folder path="../../../../apache-fop-test/"/>
         <folder path="."/>
+        <folder path="../com.oxygenxml.pdf2.ug/"/>
         <folder path="../org.dita.pdf2.fop/"/>
         <folder path="../org.dita.pdf2/"/>
     </projectTree>
