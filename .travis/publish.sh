@@ -36,18 +36,12 @@ sh dita-ot-2.4/bin/dita --install
 echo "====================================="
 echo "Transform to PDF the sample DITA map"
 echo "====================================="
-sh dita-ot-2.4/bin/dita -i "DITA sample/font-configuration.ditamap" -f oxy-font-cfg -output=publishing -v  -Dorg.dita.pdf2.i18n.enabled=false -Dclean.temp=no -temp=temp_dir
+sh dita-ot-2.4/bin/dita -i "DITA sample/font-configuration.ditamap" -f oxy-font-cfg -output=publishing -Dorg.dita.pdf2.i18n.enabled=false 
 
 # cp gh-pages/index.html publishing/index.html
+
 echo "====================================="
 echo "List output file"
 echo "====================================="
-
-echo "List sample"
-ls -la "DITA sample"
-echo "List sample temp"
-ls -la "temp_dir"
-
-cp temp_dir/topic.fo publishing/topic.fo
 
 ls -la publishing
