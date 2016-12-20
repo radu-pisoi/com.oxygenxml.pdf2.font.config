@@ -26,6 +26,7 @@ cp integrator.xml dita-ot-2.4/plugins/com.oxygenxml.pdf2.font.config/integrator.
 cp plugin.xml dita-ot-2.4/plugins/com.oxygenxml.pdf2.font.config/plugin.xml
 
 ls -la dita-ot-2.4/plugins/com.oxygenxml.pdf2.font.config
+ls -la dita-ot-2.4/plugins/com.oxygenxml.pdf2.font.config/fonts
 
 echo "====================================="
 echo "integrate plugins"
