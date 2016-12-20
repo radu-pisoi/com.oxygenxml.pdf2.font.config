@@ -36,7 +36,7 @@ sh dita-ot-2.4/bin/dita --install
 echo "====================================="
 echo "Transform to PDF the sample DITA map"
 echo "====================================="
-sh dita-ot-2.4/bin/dita -i "DITA sample/font-configuration.ditamap" -f pdf2 -output=publishing -v  -Dorg.dita.pdf2.i18n.enabled=false -Dclean.temp=no -Ddita.temp.dir=temp_dir
+sh dita-ot-2.4/bin/dita -i "DITA sample/font-configuration.ditamap" -f pdf2 -output=publishing -v  -Dorg.dita.pdf2.i18n.enabled=false -Dclean.temp=no -temp=temp_dir
 
 # cp gh-pages/index.html publishing/index.html
 echo "====================================="
