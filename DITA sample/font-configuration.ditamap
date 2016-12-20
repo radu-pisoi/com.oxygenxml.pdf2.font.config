@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Font configuration for a multi language plugin</title>
+ <title>Font configuration for a multiple language topic</title>
  <topicref href="multi-language-topic.dita"/>
 </map>

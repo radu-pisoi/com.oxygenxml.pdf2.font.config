@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_kc5_l23_3y">
-  <title>Sample topic</title>
+  <title>I Can Eat Glass</title>
   <body>
+    <p><b>I Can Eat Glass</b> was a linguistic project documented on the early Web by then-Harvard
+      student Ethan Mollick. The objective was to provide speakers with translations of the phrase
+      "I can eat glass, it does not hurt me" from a wide variety of languages; the phrase was chosen
+      because of its unorthodox nature. Mollick's original page disappeared in or about June 2004.
+      See more on <xref href="https://en.wikipedia.org/wiki/I_Can_Eat_Glass" format="html"
+        scope="external">Wikipedia</xref> site.</p>
+    <section id="section_hn4_4zk_3y">
+      <title><b>Supported languages</b></title>
+      <p>The following languages are supported for all PDF, XHTML, and HTML5-based transformation
+        types.</p>
+      <p>The below table displays the 'I Can Eat Glass' translated in all languages supported by the
+        DITA-OT PDF plugin.</p>
+    </section>
     <p>
       <table id="table_n4t_nh3_3y">
-        <title>Table 1. Supported languages: PDF transformation</title>
+        <title/>
         <tgroup cols="4">
           <colspec colnum="1" colname="col1" colwidth="1*"/>
           <colspec colnum="2" colname="col2" colwidth="1.49*"/>
@@ -25,31 +38,35 @@
               <entry>ar or ar-EG</entry>
               <entry xml:lang="ar">أنا قادر على أكل الزجاج و هذا لا يؤلمني.</entry>
               <entry><xref href="https://fonts.google.com/specimen/Amiri" format="html"
-                  scope="external">Google Font Amiri</xref></entry>
+                  scope="external">Google Amiri</xref> font</entry>
             </row>
             <row>
               <entry>Belarusian</entry>
               <entry>be or be-BY</entry>
               <entry>Я магу есці шкло, яно мне не шкодзіць.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Bosnian</entry>
               <entry>bs or bs-BA</entry>
               <entry> Ја могу јести стакло, и то ми не штети.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Bulgarian</entry>
               <entry>bg or bg-BG</entry>
               <entry>Мога да ям стъкло, то не ми вреди.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Catalan</entry>
               <entry>ca-ES</entry>
               <entry>Puc menjar vidre, que no em fa mal.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Chinese (simplified)</entry>
@@ -67,61 +84,71 @@
               <entry>Croatian</entry>
               <entry>hr or hr-HR</entry>
               <entry> Ja mogu jesti staklo, i to mi ne šteti.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Czech</entry>
               <entry>cs or cs-CZ</entry>
               <entry>Mohu jíst sklo, neublíží mi.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Danish</entry>
               <entry>da or da-DK</entry>
               <entry>Jeg kan spise glas, det gør ikke ondt på mig.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Dutch</entry>
               <entry>nl or nl-NL</entry>
               <entry>Ik kan glas eten, het doet mĳ geen kwaad.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>English (US)</entry>
               <entry>en or en-US</entry>
               <entry>I can eat glass and it doesn't hurt me.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Estonian</entry>
               <entry>et or et-EE</entry>
               <entry>Ma võin klaasi süüa, see ei tee mulle midagi.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Finnish</entry>
               <entry>fi or fi-FI</entry>
               <entry>Voin syödä lasia, se ei vahingoita minua.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>French</entry>
               <entry>fr or fr-FR</entry>
               <entry>Je peux manger du verre, ça ne me fait pas mal.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>German</entry>
               <entry>de or de-DE</entry>
               <entry>Ich kann Glas essen, ohne mir zu schaden.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Greek</entry>
               <entry>el or el-GR</entry>
               <entry>Μπορώ να φάω σπασμένα γυαλιά χωρίς να πάθω τίποτα.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Hebrew</entry>
@@ -139,25 +166,29 @@
               <entry>Hungarian</entry>
               <entry>hu or hu-HU</entry>
               <entry>Meg tudom enni az üveget, nem lesz tőle bajom.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Icelandic</entry>
               <entry>is or is-IS</entry>
               <entry>Ég get etið gler án þess að meiða mig.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Indonesian</entry>
               <entry>id or id-ID</entry>
               <entry>No translation for this language.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Italian</entry>
               <entry>it or it-IT</entry>
               <entry>Posso mangiare il vetro e non mi fa male.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Japanese</entry>
@@ -169,7 +200,8 @@
               <entry>Kazakh</entry>
               <entry>kk or kk-KZ</entry>
               <entry>No translation for this language.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Korean</entry>
@@ -181,115 +213,134 @@
               <entry>Latvian</entry>
               <entry>lv or lv-LV</entry>
               <entry>Es varu ēst stiklu, tas man nekaitē.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Lithuanian</entry>
               <entry>lt or lt-LT</entry>
               <entry>Aš galiu valgyti stiklą ir jis manęs nežeidžia </entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Macedonian</entry>
               <entry>mk or mk-MK</entry>
               <entry>Можам да јадам стакло, а не ме штета.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Malay</entry>
               <entry>ms or ms-MY</entry>
               <entry>Saya boleh makan kaca dan ia tidak mencederakan saya.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Montenegrin</entry>
               <entry>sr-latn-ME</entry>
               <entry>Ја могу јести стакло, и то ми не штети.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Norwegian</entry>
               <entry>no or no-NO</entry>
               <entry>Eg kan eta glas utan å skada meg.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Polish</entry>
               <entry>pl or pl-PL</entry>
               <entry> Mogę jeść szkło i mi nie szkodzi.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Portuguese</entry>
               <entry>pt or pt-PT</entry>
               <entry>Posso comer vidro, não me faz mal.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Portuguese (Brazil)</entry>
               <entry>pt-BR</entry>
               <entry> Posso comer vidro, não me faz mal.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Romanian</entry>
               <entry>ro or ro-RO</entry>
               <entry>Pot să mănânc sticlă și ea nu mă rănește.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Russian</entry>
               <entry>ru or ru-RU</entry>
               <entry>Я могу есть стекло, оно мне не вредит.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Serbian (Cyrillic script)</entry>
               <entry>sr, sr-CS, sr-RS, or sr-SP</entry>
               <entry>Ja mogu jesti staklo, i to mi ne šteti.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Serbian (Latin script)</entry>
               <entry>sr-latn-RS</entry>
               <entry>Ја могу јести стакло, и то ми не штети.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Slovak</entry>
               <entry>sk or sk-SK</entry>
               <entry>Môžem jesť sklo. Nezraní ma.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Slovenian</entry>
               <entry>sl or sl-SI</entry>
               <entry>Lahko jem steklo, ne da bi mi škodovalo.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Spanish</entry>
               <entry>es or es-ES</entry>
               <entry>Puedo comer vidrio, no me hace daño.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Swedish</entry>
               <entry>sv or sv-SE</entry>
               <entry>Jag kan äta glas utan att skada mig.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Thai</entry>
               <entry>th or th-TH</entry>
               <entry>ฉันกินกระจกได้ แต่มันไม่ทำให้ฉันเจ็บ</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
             <row>
               <entry>Turkish</entry>
               <entry>tr or tr-TR</entry>
               <entry>Cam yiyebilirim, bana zararı dokunmaz.</entry>
-              <entry/>
+              <entry><xref href="https://fonts.google.com/specimen/Roboto" format="html"
+                  scope="external">Google Roboto</xref> font</entry>
             </row>
           </tbody>
         </tgroup>
