@@ -8,8 +8,8 @@
         <title>Table 1. Supported languages: PDF transformation</title>
         <tgroup cols="4">
           <colspec colnum="1" colname="col1" colwidth="1*"/>
-          <colspec colnum="2" colname="col2" colwidth="1.38*"/>
-          <colspec colname="newCol3" colnum="3" colwidth="2.87*"/>
+          <colspec colnum="2" colname="col2" colwidth="1.49*"/>
+          <colspec colname="newCol3" colnum="3" colwidth="2.77*"/>
           <colspec colname="newCol4" colnum="4" colwidth="1.99*"/>
           <thead>
             <row>
