@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="com.oxygenxml.pdf.font.config">
+    <require plugin="org.dita.pdf2"/>
+    <require plugin="org.dita.pdf2.fop"/>
+    
+    <feature extension="dita.conductor.transtype.check" value="oxy-font-cfg"/>
+    <feature extension="dita.transtype.print" value="oxy-font-cfg"/>
+    
+    <feature extension="dita.conductor.target.relative" file="integrator.xml"/>    
+    <transtype name="oxy-font-cfg" extends="pdf2" desc="PDF2 font configuration sample"/>
+</plugin>
