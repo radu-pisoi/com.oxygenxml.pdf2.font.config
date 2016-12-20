@@ -37,14 +37,25 @@ See the accompanying LICENSE file for applicable license.
 
     <!-- titles -->
     <xsl:attribute-set name="common.title">
-        <xsl:attribute name="font-family">Mirza, Helvetica, Arial Unicode MS, Tahoma</xsl:attribute>
+        <xsl:attribute name="font-family">Roboto</xsl:attribute>
     </xsl:attribute-set>
 
     <xsl:attribute-set name="pre" use-attribute-sets="base-font common.block">
-        <xsl:attribute name="font-family">Mirza, Helvetica, Arial Unicode MS, Tahoma</xsl:attribute>
+        <xsl:attribute name="font-family">Roboto</xsl:attribute>
     </xsl:attribute-set>
 
     <xsl:attribute-set name="__fo__root" use-attribute-sets="base-font">
-        <xsl:attribute name="font-family">Mirza, Helvetica, Arial Unicode MS, Tahoma, Mirza</xsl:attribute>
+        <xsl:attribute name="font-family">Roboto</xsl:attribute>
+    </xsl:attribute-set>
+    
+    <xsl:attribute-set name="common.table.body.entry">
+        <xsl:attribute name="font-family">
+            <xsl:message>Locale is: <xsl:value-of select="$locale.lang"/></xsl:message>
+            <xsl:message>C node is <xsl:copy-of select="."/></xsl:message>
+            <xsl:choose>
+                <xsl:when test="@xml:lang = 'ar'">Amiri</xsl:when>
+                <xsl:otherwise>Roboto</xsl:otherwise>
+            </xsl:choose>
+        </xsl:attribute>
     </xsl:attribute-set>
 </xsl:stylesheet>
