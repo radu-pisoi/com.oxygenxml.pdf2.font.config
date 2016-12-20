@@ -48,4 +48,6 @@ ls -la "DITA sample"
 echo "List sample temp"
 ls -la "temp_dir"
 
+cp temp_dir/topic.fo publishing/topic.fo
+
 ls -la publishing
