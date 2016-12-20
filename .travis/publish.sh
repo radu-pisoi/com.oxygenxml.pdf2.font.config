@@ -35,7 +35,7 @@ sh dita-ot-2.4/bin/dita --install
 echo "====================================="
 echo "Transform to PDF the sample DITA map"
 echo "====================================="
-sh dita-ot-2.4/bin/dita -i "DITA sample/font-configuration.ditamap" -f pdf2 -output=publishing
+sh dita-ot-2.4/bin/dita -i "DITA sample/font-configuration.ditamap" -f pdf2 -output=publishing -v
 
 # cp gh-pages/index.html publishing/index.html
 echo "====================================="
