@@ -46,6 +46,6 @@ echo "====================================="
 echo "List sample"
 ls -la "DITA sample"
 echo "List sample temp"
-ls -la "DITA sample/temp"
+ls -la "temp_dir"
 
 ls -la publishing
