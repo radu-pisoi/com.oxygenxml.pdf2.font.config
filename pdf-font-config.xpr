@@ -265,6 +265,7 @@
     </meta>
     <projectTree name="pdf-font-config.xpr">
         <folder path="."/>
+        <folder path="../org.dita.pdf2.fop/"/>
         <folder path="../org.dita.pdf2/"/>
     </projectTree>
 </project>
