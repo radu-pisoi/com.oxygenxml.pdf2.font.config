@@ -43,7 +43,9 @@ echo "====================================="
 echo "List output file"
 echo "====================================="
 
+echo "List sample"
 ls -la "DITA sample"
+echo "List sample temp"
 ls -la "DITA sample/temp"
 
 ls -la publishing
