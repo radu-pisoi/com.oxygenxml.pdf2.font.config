@@ -50,9 +50,14 @@ See the accompanying LICENSE file for applicable license.
     
     <xsl:attribute-set name="common.table.body.entry">
         <xsl:attribute name="font-family">
-            <xsl:message>Locale is: <xsl:value-of select="$locale.lang"/></xsl:message>
-            <xsl:message>C node is <xsl:copy-of select="."/></xsl:message>
             <xsl:choose>
+                <xsl:when test="@xml:lang = 'he'">Arimo</xsl:when>
+                <xsl:when test="@xml:lang = 'ar'">Amiri</xsl:when>
+                <xsl:when test="@xml:lang = 'zh-CN'">cwTeXFangSong</xsl:when>
+                <xsl:when test="@xml:lang = 'zh-TW'">cwTeXFangSong</xsl:when>
+                <xsl:when test="@xml:lang = 'ko'">Noto Sans KR</xsl:when>
+                <xsl:when test="@xml:lang = 'ja'">Kokoro</xsl:when>
+                
                 <xsl:when test="@xml:lang = 'ar'">Amiri</xsl:when>
                 <xsl:otherwise>Roboto</xsl:otherwise>
             </xsl:choose>
