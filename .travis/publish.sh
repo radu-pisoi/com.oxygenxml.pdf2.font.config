@@ -20,7 +20,6 @@ echo "===================================================="
 mkdir dita-ot-2.4/plugins/com.oxygenxml.pdf2.font.config
 cp -R Customization dita-ot-2.4/plugins/com.oxygenxml.pdf2.font.config/Customization
 cp -R fonts dita-ot-2.4/plugins/com.oxygenxml.pdf2.font.config/fonts
-cp -R lib dita-ot-2.4/plugins/com.oxygenxml.pdf2.font.config/lib
 cp build.xml dita-ot-2.4/plugins/com.oxygenxml.pdf2.font.config/build.xml
 cp fop.xconf dita-ot-2.4/plugins/com.oxygenxml.pdf2.font.config/fop.xconf
 cp integrator.xml dita-ot-2.4/plugins/com.oxygenxml.pdf2.font.config/integrator.xml
@@ -34,9 +33,9 @@ echo "====================================="
 sh dita-ot-2.4/bin/dita --install
 
 echo "====================================="
-echo "Transform to PDF the 'taskbook.ditamap' sample file"
+echo "Transform to PDF the sample DITA map"
 echo "====================================="
-sh dita-ot-2.4/bin/dita -i DITA sample/font-configuration.ditamap -f pdf2 -output=publishing
+sh dita-ot-2.4/bin/dita -i "DITA sample/font-configuration.ditamap" -f pdf2 -output=publishing
 
 # cp gh-pages/index.html publishing/index.html
 echo "====================================="
