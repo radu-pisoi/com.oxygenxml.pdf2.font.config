@@ -16,7 +16,7 @@ git init
 git config user.name "Radu Pisoi"
 git config user.email "radupisoi23@gmail.com"
 
-git remote add upstream "https://$GH_TOKEN@github.com/radu-pisoi/com.oxygenxml.pdf2.font.config"
+git remote add upstream "https://$GH_TOKEN_FONT@github.com/radu-pisoi/com.oxygenxml.pdf2.font.config"
 git fetch upstream
 git reset upstream/gh-pages
 
