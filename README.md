@@ -1,4 +1,4 @@
-Font configuration for the DITA-OT PDF plugin
+# Font configuration for the DITA-OT PDF plugin
 
 This project tries to show you how to configure the DITA-OT PDF transformation
 when the published topic is multi-language. The used XSL-FO processor is 
