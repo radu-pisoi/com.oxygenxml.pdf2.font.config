@@ -1,12 +1,19 @@
-# Font configuration for the DITA-OT PDF plugin
+# Font configuration for a multi-language topic with the DITA-OT PDF plugin
 
-This project tries to show you how to configure the **DITA-OT PDF** transformation when the published topic contains paragraphs in different languages. The used XSL-FO processor is [Apache FOP](http://xmlgraphics.apache.org/).
+This project tries to show you how to configure the **DITA-OT PDF** transformation 
+when the published topic contains paragraphs in different languages. 
+We'll use the [Apache FOP](http://xmlgraphics.apache.org/) processor.
 
-There are two methods to configure the PDF fonts. The main difference between them is that one uses a _font mapping_ mechanism while the other not.
+The default transformation uses a font mapping mechanism for font configuration.      
+This mechanism is explained very well in the [Font configuration in PDF2](http://www.elovirta.com/2016/02/18/font-configuration-in-pdf2.html) topic written by 
+Jarno Elovirta.
 
-As sample document, we have used [I Can Eat Glass](https://en.wikipedia.org/wiki/I_Can_Eat_Glass) linguistic project. In our sample we have used the [Google fonts](https://fonts.google.com/).
+As sample document, we have used [I Can Eat Glass](https://en.wikipedia.org/wiki/I_Can_Eat_Glass) linguistic project. 
+Configured fonts are from [Google fonts](https://fonts.google.com/) storage.
 
-This project uses **Travis CI** for continuous integration, so a PDF sample is generated whenever the customization is modified. You can view the results of this customization by opening one of the following recently generated PDF [Multi language topic](https://github.com/radu-pisoi/com.oxygenxml.pdf2.font.config/blob/gh-pages/font-configuration.pdf).
+This project uses **Travis CI** for continuous integration, so a PDF sample is generated whenever the customization is modified. 
+You can view the results of this customization by opening the latest generated PDF 
+[Multi language topic](https://github.com/radu-pisoi/com.oxygenxml.pdf2.font.config/blob/gh-pages/font-configuration.pdf).
 
 To use this PDF customization plugin, follow these steps:
 
