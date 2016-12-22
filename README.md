@@ -18,6 +18,6 @@ To use this PDF customization plugin, follow these steps:
 1. Download **DITA-OT 2.4** 
 2. Copy the root folder of this customization plugin to the **DITA-OT/plugins** folder
 3. Run the **DITA-OT Integrator** (ant -f integrator.xml)
-4. Invoke the PDF transformation using the **oxy-ug-pdf** transtype in a command, as in the following example:
+4. Invoke the PDF transformation using the **oxy-font-cfg** transtype in a command, as in the following example:
 
 dita.bat -i "DITA sample/font-configuration.ditamap" -f oxy-font-cfg -output=publishing -Dorg.dita.pdf2.i18n.enabled=false
