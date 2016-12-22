@@ -1,6 +1,6 @@
 # Font configuration for a multi-language topic with the DITA-OT PDF plugin
 
-This project tries to present how to configure the **DITA-OT PDF** transformation 
+This project tries to present how to configure a **DITA-OT PDF** transformation 
 when the published topic contains paragraphs in different languages. In this sample project we'll use the [Apache FOP](http://xmlgraphics.apache.org/) processor.
 
 The default [DITA to PDF](http://www.dita-ot.org/2.4/user-guide/dita2pdf.html) transformation uses a font mapping mechanism for font configuration. This mechanism is explained very well in the [Font configuration in PDF2](http://www.elovirta.com/2016/02/18/font-configuration-in-pdf2.html) topic written by 
