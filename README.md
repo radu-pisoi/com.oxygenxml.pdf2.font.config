@@ -6,8 +6,8 @@ when the published topic contains paragraphs in different languages. In this sam
 The default [DITA to PDF](http://www.dita-ot.org/2.4/user-guide/dita2pdf.html) transformation uses a font mapping mechanism for font configuration. This mechanism is explained very well in the [Font configuration in PDF2](http://www.elovirta.com/2016/02/18/font-configuration-in-pdf2.html) topic written by 
 Jarno Elovirta(main developer at [DITA-OT](http://www.dita-ot.org/2.4/) project).
 
-As sample document, we have used [I Can Eat Glass](https://en.wikipedia.org/wiki/I_Can_Eat_Glass) linguistic project. 
-Configured fonts are from [Google fonts](https://fonts.google.com/) storage.
+As sample document, we have used [I Can Eat Glass](https://en.wikipedia.org/wiki/I_Can_Eat_Glass) linguistic project and fonts
+are taken from [Google fonts](https://fonts.google.com/) storage.
 
 This project uses **Travis CI** for continuous integration, so a PDF sample is generated whenever the customization is modified. 
 You can view the results of this customization by opening the latest generated PDF 
