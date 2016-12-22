@@ -6,9 +6,10 @@ when the published topic contains paragraphs in different languages. In this sam
 As sample document, we have used [I Can Eat Glass](https://en.wikipedia.org/wiki/I_Can_Eat_Glass) linguistic project and fonts
 are taken from [Google fonts](https://fonts.google.com/) storage.
 
-This project uses **Travis CI** for continuous integration, so a PDF sample is generated whenever the customization is modified. 
-You can view the results of this customization by opening the latest generated PDF 
+This project uses **Travis CI** for continuous integration, so a PDF sample is generated whenever the customization is modified. You can view the results of this customization by opening the latest generated PDF 
 [Multi language topic](https://github.com/radu-pisoi/com.oxygenxml.pdf2.font.config/blob/gh-pages/font-configuration.pdf).
+
+See more details about this customization in the [Wiki](https://github.com/radu-pisoi/com.oxygenxml.pdf2.font.config/wiki) pages.
 
 To use this PDF customization plugin, follow these steps:
 
